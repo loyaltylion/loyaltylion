@@ -26,6 +26,7 @@
 * @copyright 2012-2014 LoyaltyLion
 * @license   http://opensource.org/licenses/MIT  The MIT License
 */
+
 if (!defined('_PS_VERSION_')) {
     exit;
 }
