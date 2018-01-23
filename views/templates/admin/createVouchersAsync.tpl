@@ -31,9 +31,9 @@
     <div class='content'>
       <div class='create-vouchers-async'>
         <div class='loading'>
-          <p>{l s="Creating {$codes_to_generate} vouchers (each one for {$currency}{$discount_amount})" mod='loyaltylion'}
+          <p>{l s='Creating {$codes_to_generate} vouchers (each one for {$currency}{$discount_amount})' mod='loyaltylion'}
           <br>
-          {l s="This may take a minute - please don't close this window" mod='loyaltylion'}</p>
+          {l s='This may take a minute - please don't close this window' mod='loyaltylion'}</p>
           <div class='spinner'></div>
         </div>
         <div class='complete' style='display: none'>

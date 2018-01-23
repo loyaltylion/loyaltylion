@@ -43,7 +43,7 @@
         <div class='sub-heading'>{l s='Create your own social loyalty program' mod='loyaltylion'}</div>
         <p>{l s='Show customers they’re valued and increase sales by rewarding referrals, purchases, signups, reviews and visits.' mod='loyaltylion'}</p>
 
-        <p>{l s="You decide what to reward and how to reward it; for example, 100 points for signups, 5 points per {$currency_sign}1 spent and 1000 points per referral. Customers collect points and redeem them for vouchers to spend at your store." mod='loyaltylion'}</p>
+        <p>{l s='You decide what to reward and how to reward it; for example, 100 points for signups, 5 points per {$currency_sign}1 spent and 1000 points per referral. Customers collect points and redeem them for vouchers to spend at your store.' mod='loyaltylion'}</p>
 
         <div class='sub-heading'>{l s='Benefits' mod='loyaltylion'}</div>
         <ul>
@@ -67,7 +67,7 @@
 
         <div class='sub-heading'>{l s='Pricing' mod='loyaltylion'}</div>
 
-        <p>{l s="We'll let you know which plan you'll be on before your free trial ends. You can change plans whenever you like, and cancel any time." mod='loyaltylion'}</p>
+        <p>{l s='We'll let you know which plan you'll be on before your free trial ends. You can change plans whenever you like, and cancel any time.' mod='loyaltylion'}</p>
 
         <div class='pricing'>
           <div class='boxes'>

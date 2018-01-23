@@ -44,7 +44,7 @@ class LoyaltyLion extends Module
 	{
 		$this->name = 'loyaltylion';
 		$this->tab = 'advertising_marketing';
-		$this->version = '1.2.5';
+		$this->version = '1.2.6';
 		$this->author = 'LoyaltyLion';
 		$this->need_instance = 0;
 
@@ -938,19 +938,19 @@ class LoyaltyLion extends Module
 	}
 
 	/**
-	 * Get the main LoyaltyLion host (e.g. `loyaltylion.com`)
+	 * Get the main LoyaltyLion host (e.g. `app.loyaltylion.com`)
 	 *
 	 * If a server environment variable has been set for this, it will be returned, which allows 
 	 * configuring the module to work in different environments (e.g. development and staging); if not,
 	 * this will return the default production value
 	 * 
-	 * @return String LoyaltyLion host, e.g. 'loyaltylion.com'
+	 * @return String LoyaltyLion host, e.g. 'app.loyaltylion.com'
 	 */
 	private function getLoyaltyLionHost()
 	{
 		return isset($_SERVER['LOYALTYLION_HOST'])
 			? $_SERVER['LOYALTYLION_HOST']
-			: 'loyaltylion.com';
+			: 'app.loyaltylion.com';
 	}
 
 	/**
